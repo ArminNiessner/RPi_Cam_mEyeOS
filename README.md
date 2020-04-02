@@ -107,5 +107,5 @@ extra program on windows to see and access the file system.
 ## Remarks
 
 * In order for the camera to connect to another wifi network, the appropriate 
-information must be added to ´/data/etc/wpa_supplicant.conf´. Use the wpa_supplicant.conf
+information must be added to /data/etc/wpa_supplicant.conf. Use the wpa_supplicant.conf
 file in this repository as a template.
