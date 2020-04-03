@@ -1,5 +1,9 @@
 # RPi_Cam_mEyeOS
-A Raspberry Pi timelaps and surveillance camera using [MotionEyeOS](https://github.com/ccrisan/motioneyeos) by [Calin Crisan](https://github.com/ccrisan)
+A Raspberry Pi timelaps and surveillance camera designed to be used in the field, e.g. for a timelaps record of an orchid 
+to capture pollination events. The camera is based on a Raspberry Pi Zero W placed in a rugged
+casing and running [MotionEyeOS](https://github.com/ccrisan/motioneyeos) by [Calin Crisan](https://github.com/ccrisan).
+The camera can be built using the following instructions or ordered by sending a
+request to armin.niessner@taysira.org
 
 ![RPi_cam_MEOS](RPi_cam_MEOS.png)
 
