@@ -2,8 +2,11 @@
 A Raspberry Pi timelaps and surveillance camera designed to be used in the field, e.g. for a timelaps record of an orchid 
 to capture pollination events. The camera is based on a Raspberry Pi Zero W placed in a rugged
 casing and running [MotionEyeOS](https://github.com/ccrisan/motioneyeos) by [Calin Crisan](https://github.com/ccrisan).
+The battery package used in this instructions should power the camera for about two days,
+but can be extended by adding more Li-Ion cells and/or adding a solar panel, which can 
+be placed on top of the camera and connected via a cable gland on the side of the housing.
 The camera can be built using the following instructions or ordered by sending a
-request to armin.niessner@taysira.org
+request to armin.niessner@taysira.org (~ 150€).
 
 ![RPi_cam_MEOS](RPi_cam_MEOS.png)
 
