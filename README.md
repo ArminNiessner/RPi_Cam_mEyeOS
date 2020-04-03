@@ -69,13 +69,13 @@ placed in the opening provided in the lid (remove the fixing screw from the lens
 ## Software setup
 1. Download the MotionEyeOS image ([v. 20190911](https://github.com/ccrisan/motioneyeos/releases/download/20190911/motioneyeos-raspberrypi-20190911.img.xz) or try new [releases](https://github.com/ccrisan/motioneyeos/releases)) and flash it on the 64 GB microSD card (e.g. using [balenaEtcher](https://www.balena.io/etcher/)). See also the [installation instructions](https://www.balena.io/etcher/).
 1. For the RPi Cam to connect to a smartphone or other device, the wifi must be 
-preconfigured. To do this, create a file named "wpa_supplicant.conf" in the /boot partition with 
+preconfigured. To do this, create a file named `wpa_supplicant.conf` in the `/boot` partition with 
 the necessary information of the wifi network. You can use the file in this repository
 as a template or see [Wifi Preconfiguration instructions](https://github.com/ccrisan/motioneyeos/wiki/Wifi-Preconfiguration) for further details.
 1. Insert the microSD card into the RPi Zero. Make sure that the wifi network is turned on 
 (turn on the wifi hotspot on your smartphone) and start the camera with the switch.
 1. After a few seconds up to one minute the camera should appear in your wifi network. 
-Note the IP address (e.g. 192.168.43.xxx) and enter it in your prefered internet browser.
+Note the IP address (e.g. `192.168.43.xxx`) and enter it in your prefered internet browser.
  The MotionEyeOS user interface should appear and a live image of the camera
  should be transmitted. To log in, click on the user button and enter the 
 username "admin" without a password (check the "Remember me"-switch to automatically log in as admin next time).
@@ -91,7 +91,7 @@ available to find the right settings for your project (e.g. "Video Streaming",
 1. For example, to make a time-lapse recording of a plant in a meadow, where no
  wifi network is available, a wifi hotspot is activated using a smartphone 
 (information about the hotspot must first be stored on the sd card in the file 
-"wpa_supplicant.conf").
+`wpa_supplicant.conf`).
 1. Open the RPi_cam with a screwdriver and start it by flipping the switch. 
 Close the housing again with the screwdriver and position the RPi_Cam in front 
 of the object.
@@ -112,18 +112,18 @@ Hit apply and deactivate your wifi hotspot.
 1. To check the camera again later or to download the pictures you have to activate your wifi hotspot near the RPi_cam. 
 Wait for the camera to connect to your network (may take up to minutes) and open the MotionEyeOs interface through your browser. 
 1. Hit the picture icon in the top menu of the live view. Here you can download 
-single pictures taken or download all pictures of one day as a .zip file to your smartphone. 
+single pictures taken or download all pictures of one day as a `.zip` file to your smartphone. 
 You also have the choice to directly create a timelaps video from all pictures of one day and
 download it.
 1. Alternatively, if files are to large and take to long to transmit over wifi, you may shutdown the 
 RPi_cam (after shutdown flip the switch in the lid) and remove the microSD card from the RPi. 
-Open the "data" partition on the microSD card (largest partition of three) and 
-navigate to "output" and "Camera1" (or other camera name). Here, you can find all the pictures
+Open the `/data` partition on the microSD card (largest partition of three) and 
+navigate to `output` and `Camera1` (or other camera name). Here, you can find all the pictures
 and videos taken by the camera each day. Attention: you need a linux machine or an 
 extra program on windows to see and access the file system.
 
 ## Remarks
 
 * In order for the camera to connect to another wifi network, the appropriate 
-information must be added to /data/etc/wpa_supplicant.conf. Use the wpa_supplicant.conf
+information must be added to `/data/etc/wpa_supplicant.conf`. Use the `wpa_supplicant.conf`
 file in this repository as a template.
